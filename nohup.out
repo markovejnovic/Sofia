@@ -1,0 +1,1967 @@
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:165: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:179: RuntimeWarning: Couldn't find ffplay or avplay - defaulting to ffplay, but may not work
+  warn("Couldn't find ffplay or avplay - defaulting to ffplay, but may not work", RuntimeWarning)
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 04:42:08
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+Expression 'paInvalidSampleRate' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2048
+Expression 'PaAlsaStreamComponent_InitialConfigure( &self->capture, inParams, self->primeBuffers, hwParamsCapture, &realSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2719
+Expression 'PaAlsaStream_Configure( stream, inputParameters, outputParameters, sampleRate, framesPerBuffer, &inputLatency, &outputLatency, &hostBufferSizeMode )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2843
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/rock64/Sofia/ears.py", line 57, in run
+    sleep_time=0.03
+  File "/home/rock64/Sofia/snowboy/snowboydecoder.py", line 172, in start
+    callback()
+  File "/home/rock64/Sofia/ears.py", line 22, in detected_callback
+    command = cognition.listen_to_command()
+  File "/home/rock64/Sofia/cognition.py", line 13, in listen_to_command
+    chunk_size = chunk_size) as source:
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/speech_recognition/__init__.py", line 141, in __enter__
+    input=True,  # stream is an input stream
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pyaudio.py", line 750, in open
+    stream = Stream(self, *args, **kwargs)
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pyaudio.py", line 441, in __init__
+    self._stream = pa.open(**arguments)
+IOError: [Errno -9997] Invalid sample rate
+
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:165: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:179: RuntimeWarning: Couldn't find ffplay or avplay - defaulting to ffplay, but may not work
+  warn("Couldn't find ffplay or avplay - defaulting to ffplay, but may not work", RuntimeWarning)
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 04:47:02
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+Expression 'paInvalidSampleRate' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2048
+Expression 'PaAlsaStreamComponent_InitialConfigure( &self->capture, inParams, self->primeBuffers, hwParamsCapture, &realSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2719
+Expression 'PaAlsaStream_Configure( stream, inputParameters, outputParameters, sampleRate, framesPerBuffer, &inputLatency, &outputLatency, &hostBufferSizeMode )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2843
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/rock64/Sofia/ears.py", line 57, in run
+    sleep_time=0.03
+  File "/home/rock64/Sofia/snowboy/snowboydecoder.py", line 172, in start
+    callback()
+  File "/home/rock64/Sofia/ears.py", line 22, in detected_callback
+    command = cognition.listen_to_command()
+  File "/home/rock64/Sofia/cognition.py", line 13, in listen_to_command
+    chunk_size = chunk_size) as source:
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/speech_recognition/__init__.py", line 141, in __enter__
+    input=True,  # stream is an input stream
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pyaudio.py", line 750, in open
+    stream = Stream(self, *args, **kwargs)
+  File "/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pyaudio.py", line 441, in __init__
+    self._stream = pa.open(**arguments)
+IOError: [Errno -9997] Invalid sample rate
+
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:165: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:179: RuntimeWarning: Couldn't find ffplay or avplay - defaulting to ffplay, but may not work
+  warn("Couldn't find ffplay or avplay - defaulting to ffplay, but may not work", RuntimeWarning)
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 05:13:52
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 05:14:09
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 05:14:26
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 06:25:38
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 06:25:54
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 06:26:07
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 07:01:34
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 07:52:58
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 07:53:28
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 07:54:48
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 08:06:08
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 08:16:33
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch Night Lights
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one Sophia
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch Night Lights
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: why are all scammers Indian
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Stephen Sophia is disturbed by
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFIINFO:snowboy:Keyword 1 detected at time: 2020-01-11 08:20:21
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 08:31:41
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 17:33:23
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 18:48:16
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:51:52
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:53:22
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:53:39
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:54:31
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:55:59
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:56:50
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 19:57:51
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:00:52
+]: Sofia recognized: all they want they won the war
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: maybe it's more profitable to underpay them that's why people don't put other people in Chacos not because there's some Constitution
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: it's been considering nuclear weapons in the military
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I don't I don't think the sofas particularly like
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Sofia / Katrina.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Maya theaters
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I'm in Sophia's talking too much
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: no one asked you to turn on tINFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:01:17
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:02:05
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:07:37
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:21:48
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:23:28
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:36:59
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 20:37:46
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:03:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:09:46
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:38:34
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:39:16
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:48:46
+INFO:snowboy:Keyword 1 detected at time: 2020-01-11 21:59:56
+he lights Alexa turn on my phone do you know we have Sophia
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: just you discussing
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I'm in Maryland from I'm right next to Washington DC
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: relationship
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: 3.3.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: for what reason
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: violence violence
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 INFO:snowboy:Keyword 1 detected at time: 2020-01-11 22:03:40
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 03:10:06
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 03:11:38
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 03:20:55
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 03:33:25
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 04:55:28
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 06:03:28
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 06:07:53
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 06:08:39
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 20:03:12
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 20:03:24
+rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: is this my stomach is worse now you see that you can just drunk and beer
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I was sleep I woke up today because you were spraying so much
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: it says shrooms
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: mention response to beer
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysINFO:snowboy:Keyword 1 detected at time: 2020-01-12 20:52:42
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 20:53:00
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 22:31:27
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 22:59:21
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 23:01:09
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 23:07:55
+INFO:snowboy:Keyword 1 detected at time: 2020-01-12 23:16:14
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 02:57:37
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 04:18:16
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 04:34:53
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 05:48:18
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 05:52:18
+default
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: or what
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: absolute end like magnitude of an x minus sign 20 which
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: lights off
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: 06 9
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: show me all rewrite this one kiss
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: for all the degrees in parts of the draft that I taxes the one that gives
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: still feeling for this but I want to feel it
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said wINFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:50:34
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:50:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:50:57
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:51:09
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:51:26
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:52:06
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:52:50
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:53:11
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:54:03
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:54:44
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 06:55:20
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 07:08:24
+hat she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Sophia is real
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: yassi
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: okay wait so sulky
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: okay
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: so the middle leather doesn't matter you can say anything
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: what did I say now
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposeINFO:snowboy:Keyword 1 detected at time: 2020-01-13 07:14:01
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 20:41:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 20:41:54
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 21:02:21
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 21:09:13
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 23:49:14
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 23:52:53
+INFO:snowboy:Keyword 1 detected at time: 2020-01-13 23:54:29
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 00:01:35
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 00:13:41
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 00:16:46
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 00:51:55
+d to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: hopefully not literal
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: name Sophia on the physical level of the physical level
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: might have been like two of them out
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:09:11
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:09:30
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:09:43
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:10:00
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:35:18
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:50:14
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 02:51:20
+                                                             /home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:165: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/home/rock64/Sofia/venv/local/lib/python2.7/site-packages/pydub/utils.py:179: RuntimeWarning: Couldn't find ffplay or avplay - defaulting to ffplay, but may not work
+  warn("Couldn't find ffplay or avplay - defaulting to ffplay, but may not work", RuntimeWarning)
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:16:31
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:16:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:17:03
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:28:07
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:39:08
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:40:42
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:41:05
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 05:41:22
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:25:02
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:25:59
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:26:34
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:26:43
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights on
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: unless you make a bookshelf that's that what I want I mean do you have this many books
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Switzer light one
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: not you
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: yea nice
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:29:31
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:37:39
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:38:36
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:38:48
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:40:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:43:55
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 06:50:59
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 14:58:22
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 15:24:14
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:28:54
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:34:50
+(hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: looking like death more hangers
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: there's a bad guy there's there's
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: red f*** off
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: that person be like
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: yes
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: butterfly symbol of Justice show
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: what's the maximINFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:39:06
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:39:18
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:40:39
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:42:14
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:49:20
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:52:11
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:58:15
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 17:59:56
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:00:35
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:07:17
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:20:39
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:46:01
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:46:11
+um depth
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: what
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Olivia
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: divisiveness Pina
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: died what was that it
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: like I said
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: are you smart
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Nirvana music
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: do that
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: does the gazelle with a package distribution electronica
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch lights to
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anywINFO:snowboy:Keyword 1 detected at time: 2020-01-14 18:59:38
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:00:12
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:01:53
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:04:13
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:06:06
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:07:00
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:16:00
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 19:16:11
+INFO:snowboy:Keyword 1 detected at time: 2020-01-14 20:10:22
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 02:17:03
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 02:17:17
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 02:25:44
+ay.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: what is that word
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: display so that you have on the on the joint on the joint there is a strip of cherry going with Jordan
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I know I don't like you cuz it will have it right correct
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: well let me change the units to inches
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: I don't know what to put this
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch Life 2
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Sofia
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to INFO:snowboy:Keyword 1 detected at time: 2020-01-15 02:32:07
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 03:55:45
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:18:57
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:28:18
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:30:53
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:44:42
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:45:03
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:45:24
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:45:34
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 04:45:43
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 15:56:15
+INFO:snowboy:Keyword 1 detected at time: 2020-01-15 21:18:37
+google.
+[SOFI]: Sofia recognized: there's one by one
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+Google Speech Recognition could not understand audio
+[SOFI]: Sofia recognized: 
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Carver's amberjack
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: and then I'm going to be using this stain from stain from this brand
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light to
+This channel (BOARD 10) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: which night light
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch night light
+This channel (BOARD 7) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: Sofia
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk-spdif-sound: - (hw:2,0)
+4 rk-hdmi-sound: - (hw:3,0)
+5 sysdefault
+6 spdif
+7 default
+Sofia said what she was supposed to say
+Sofia listened. Now sending to google.
+[SOFI]: Sofia recognized: switch light one
+This channel (BOARD 8) is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+0 USB Camera-B4.09.24.1: Audio (hw:0,0)
+1 rk-i2s-sound: - (hw:1,0)
+2 rk-i2s-sound: - (hw:1,1)
+3 rk
