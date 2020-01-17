@@ -1,4 +1,3 @@
-from snowboy import snowboydecoder
 from threading import Thread
 import cognition
 from time import sleep

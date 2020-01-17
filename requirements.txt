@@ -1,0 +1,7 @@
+Flask-RESTful
+enum34
+SpeechRecognition
+pydub
+cython
+numpy
+snack
