@@ -5,7 +5,6 @@
 ![Language](https://img.shields.io/github/languages/top/markovejnovic/Sofia?style=flat-square)
 ![Issues](https://img.shields.io/github/issues/markovejnovic/Sofia?style=flat-square)
 ![License](https://img.shields.io/github/license/markovejnovic/Sofia?style=flat-square)
-![Pipenv](https://img.shields.io/github/pipenv/locked/python-version/markovejnovic/Sofia)
 
 ## Table of Contents
 
